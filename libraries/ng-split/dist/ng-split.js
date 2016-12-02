@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    angular.module('ng-split')
+    angular.module('ng-split', [])
         .directive('split', split)
         .directive('splitArea', splitArea);
 
