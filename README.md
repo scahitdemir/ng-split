@@ -1,6 +1,6 @@
 # Ng-Split
 
-This angular directive is wrapper for[Split.js](http://nathancahill.github.io/Split.js/) and also this directive was inspired by[ng2-split](https://bertrandg.github.io/ng2-split//)
+This angular directive is wrapper for [Split.js](http://nathancahill.github.io/Split.js/) and also this directive was inspired by [ng2-split](https://bertrandg.github.io/ng2-split//)
 
 ## Download Ng-Split
 
