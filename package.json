@@ -1,7 +1,7 @@
 {
   "name": "ng-split",
   "description": "Angular.js wrapper for Split.js",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "scahitdemir (https://github.com/scahitdemir)",
   "homepage": "https://github.com/scahitdemir/ng-split",
   "repository": {
