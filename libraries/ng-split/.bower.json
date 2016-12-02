@@ -1,6 +1,6 @@
 {
   "name": "ng-split",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "authors": [
     "scahitdemir (https://github.com/scahitdemir)"
   ],
@@ -30,13 +30,14 @@
     "angular-sanitize": "^1.4.0",
     "Split.js": "^1.1.1"
   },
-  "_release": "0.1.0",
+  "_release": "0.2.0",
   "_resolution": {
     "type": "version",
-    "tag": "v0.1.0",
-    "commit": "e5cc125650ce687caaccc32d3f7fef871e00ee4b"
+    "tag": "v0.2.0",
+    "commit": "c24c537cc6567bc4d084b922a4eab929beda33d5"
   },
   "_source": "https://github.com/scahitdemir/ng-split.git",
-  "_target": "^0.1.0",
-  "_originalSource": "ng-split"
+  "_target": "^0.2.0",
+  "_originalSource": "ng-split",
+  "_direct": true
 }

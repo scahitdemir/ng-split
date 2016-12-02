@@ -10,9 +10,10 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     <style>
       .container {
+        border: 1px solid #cccccc;
         margin: 0 auto;
         width: 600px;
-        height: 400px;
+        height: 300px;
       }
       .split {
         -webkit-box-sizing: border-box;
@@ -52,7 +53,7 @@
     <script src="libraries/angular/angular.min.js"></script>
     <script src="libraries/angular-sanitize/angular-sanitize.min.js"></script>
     <script src="libraries/Split.js/split.min.js"></script>
-    <script src="libraries/ng-split/dist/ng-split.js"></script>
+    <script src="libraries/ng-split/dist/ng-split.min.js"></script>
 
     <script>
         (function () {
@@ -77,6 +78,7 @@
     <section class="main-content">
       <h3><a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to Ng-Split Directive Page.</h3>
 
+      <h4>Horizontal split</h4>
       <div class="container">
         <split direction="horizontal" ng-transclude>
           <split-area size="50" ng-transclude>
@@ -84,6 +86,47 @@
           </split-area>
           <split-area size="50" ng-transclude>
             <p>Sed ut perspiciatis unde omnis iste natus erro...</p>
+          </split-area>
+        </split>
+      </div>
+
+      <h4>Vertical split</h4>
+      <div class="container">
+        <split direction="vertical" ng-transclude>
+          <split-area size="50" ng-transclude>
+            <p>Lorem ipsum dolor sit amet...</p>
+          </split-area>
+          <split-area size="50" ng-transclude>
+            <p>Sed ut perspiciatis unde omnis iste natus erro...</p>
+          </split-area>
+        </split>
+      </div>
+
+      <h4>Multiple split</h4>
+      <div class="container">
+        <split direction="horizontal">
+          <split-area size="40">
+            <split direction="vertical">
+              <split-area size="30">
+                <p>Lorem ipsum dolor sit amet...</p>
+              </split-area>
+              <split-area size="40">
+                <p>Sed ut perspiciatis unde omnis iste natus erro...</p>
+              </split-area>
+              <split-area size="30">
+                <p>Lorem ipsum dolor sit amet...</p>
+              </split-area>
+            </split>
+          </split-area>
+          <split-area size="60">
+            <split direction="vertical">
+              <split-area size="50">
+                <p>Lorem ipsum dolor sit amet...</p>
+              </split-area>
+              <split-area size="50">
+                <p>Sed ut perspiciatis unde omnis iste natus erro...</p>
+              </split-area>
+            </split>
           </split-area>
         </split>
       </div>
