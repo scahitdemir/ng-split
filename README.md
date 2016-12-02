@@ -25,8 +25,7 @@ $ bower install ng-split --save
 var myapp = angular.module('myapp', ['ng-split'])
 ```
 
-##Add HTML
-
+##HTML
 ####Horizontal Split
 ```javascript
 <split direction="horizontal">
@@ -78,4 +77,42 @@ var myapp = angular.module('myapp', ['ng-split'])
         </split>
     </split-area>
 </split>
+```
+
+##CSS
+```css
+  .split p {
+    padding: 20px;
+  }
+
+  .split {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .gutter {
+    background-color: #eee;
+
+    background-repeat: no-repeat;
+    background-position: 50%;
+  }
+
+  .gutter.gutter-horizontal {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAIklEQVQoU2M4c+bMfxAGAgYYmwGrIIiDjrELjpo5aiZeMwF+yNnOs5KSvgAAAABJRU5ErkJggg==');
+    cursor: ew-resize;
+  }
+
+  .gutter.gutter-vertical {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAFCAMAAABl/6zIAAAABlBMVEUAAADMzMzIT8AyAAAAAXRSTlMAQObYZgAAABRJREFUeAFjYGRkwIMJSeMHlBkOABP7AEGzSuPKAAAAAElFTkSuQmCC');
+    cursor: ns-resize;
+  }
+
+  .split.split-horizontal, .gutter.gutter-horizontal {
+    height: 100%;
+    float: left;
+  }
 ```
