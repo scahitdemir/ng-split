@@ -55,10 +55,13 @@
     <script src="libraries/ng-split/dist/ng-split.min.js"></script>
 
     <script>
-        var app = angular.module('example', ['ng-split']);
+        (function () {
+            'use strict';
+            var app = angular.module('example', ['ng-split']);
             app.controller('driversController', function ($scope) {
 
             });
+        })();
     </script>
 
   </head>
