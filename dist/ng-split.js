@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    angular.module('ng-split')
+    angular.module('ng-split', [])
         .directive('split', split)
         .directive('splitArea', splitArea);
 
@@ -138,7 +138,7 @@
                 }
 
                 element.css('display', 'block');
-                element.css('height', bgSplitterCtrl.direction === 'horizontal' ? '100%' : null);
+                element.css('height', bgSplitCtrl.direction === 'horizontal' ? '100%' : null);
 
                 var areaData = {
                     element: element,
