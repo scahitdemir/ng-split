@@ -4,3 +4,8 @@
 /bower_components
 /.idea
 /example
+/.gitignore
+/.bowerrc
+/.gitattributes
+/.editorconfig
+/.jshintrc
