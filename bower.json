@@ -1,0 +1,10 @@
+{
+  "name": "ng-split-example",
+  "version": "0.1.0",
+  "dependencies": {
+    "angular": "^1.5.2",
+    "angular-sanitize": "^1.5.2",
+    "ng-split": "^0.1.0"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,33 @@
+{
+  "name": "ng-split",
+  "version": "0.1.0",
+  "authors": [
+    "scahitdemir (https://github.com/scahitdemir)"
+  ],
+  "homepage": "https://github.com/scahitdemir/ng-split.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scahitdemir/ng-split.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "angular.js",
+    "directive",
+    "split",
+    "split.js"
+  ],
+  "ignore": [
+    "**/*",
+    "!dist/*.js",
+    "!README.md",
+    "!LICENSE"
+  ],
+  "main": "dist/ng-split.min.js",
+  "dependencies": {
+    "angular": "^1.4.0",
+    "angular-sanitize": "^1.4.0",
+    "Split.js": "^1.1.1"
+  }
+}
