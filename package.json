@@ -24,7 +24,7 @@
   "dependencies": {
     "angular": "^1.4.0",
     "angular-sanitize": "^1.4.0",
-    "Split.js": "^1.1.1"
+    "split.js": "^1.1.1"
   },
   "devDependencies": {
     "connect-livereload": "~0.2.0",
