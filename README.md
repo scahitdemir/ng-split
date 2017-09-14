@@ -28,11 +28,11 @@ var myapp = angular.module('myapp', ['ng-split'])
 ##HTML
 ####Horizontal Split
 ```javascript
-<split direction="horizontal">
-    <split-area size="50">
+<split direction="horizontal" ng-transclude>
+    <split-area size="50" ng-transclue>
         <p>Lorem ipsum dolor sit amet...</p>
     </split-area>
-    <split-area size="50">
+    <split-area size="50" ng-transclude>
         <p>Sed ut perspiciatis unde omnis iste natus erro...</p>
     </split-area>
 </split>
@@ -40,11 +40,11 @@ var myapp = angular.module('myapp', ['ng-split'])
 
 ####Vertical Split
 ```javascript
-<split direction="vertical">
-    <split-area size="25">
+<split direction="vertical" ng-transclude>
+    <split-area size="25" ng-transclude>
         <p>Lorem ipsum dolor sit amet...</p>
     </split-area>
-    <split-area size="75">
+    <split-area size="75" ng-transclude>
         <p>Sed ut perspiciatis unde omnis iste natus erro...</p>
     </split-area>
 </split>
@@ -52,26 +52,26 @@ var myapp = angular.module('myapp', ['ng-split'])
 
 ####Multiple Split
 ```javascript
-<split direction="horizontal">
-    <split-area size="40">
-        <split direction="vertical">
-            <split-area size="30">
+<split direction="horizontal" ng-transclude>
+    <split-area size="40" ng-transclude>
+        <split direction="vertical" ng-transclude>
+            <split-area size="30" ng-transclude>
                 <p>Lorem ipsum dolor sit amet...</p>
             </split-area>
-            <split-area size="40">
+            <split-area size="40" ng-transclude>
                 <p>Sed ut perspiciatis unde omnis iste natus erro...</p>
             </split-area>
-            <split-area size="30">
+            <split-area size="30" ng-transclude>
                 <p>Lorem ipsum dolor sit amet...</p>
             </split-area>
         </split>
     </split-area>
-    <split-area size="60">
-        <split direction="vertical">
-            <split-area size="50">
+    <split-area size="60" ng-transclude>
+        <split direction="vertical" ng-transclude>
+            <split-area size="50" ng-transclude>
                 <p>Lorem ipsum dolor sit amet...</p>
             </split-area>
-            <split-area size="50">
+            <split-area size="50" ng-transclude>
                 <p>Sed ut perspiciatis unde omnis iste natus erro...</p>
             </split-area>
         </split>
